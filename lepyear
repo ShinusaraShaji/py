@@ -1,0 +1,7 @@
+import datetime
+current_year=datetime.datetime.now().year
+final_year_str=input("Enter the final year:")
+final_year=int(final_year_str)
+years_difference=final_year-current_year
+print(f"The number of years between{current_year}and {final_year}is {years_difference}.")
+
